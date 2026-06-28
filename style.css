@@ -1,0 +1,30 @@
+:root{
+    --primarycolour: #7C4EE4;
+    --secondarycolour: #333333;
+    --whitecolour:#FFFFFF;
+}
+.primary{
+    color: var(--primarycolour ) 
+}
+.black{
+color: var(--secondarycolour) !important
+}
+.text-color{
+    color: var(--secondarycolour) !important
+    
+}
+.text-color :hover{
+    background-color: var(--whitecolour) !important
+}
+.purple{
+    background:var(--whitecolour) !important
+}
+.purple{
+    color: var(--secondarycolour) !important
+}
+.btn-size {
+    width: 8%;
+}
+.last{
+    color: var(--primarycolour) !important
+}
