@@ -1,30 +1,73 @@
 :root{
-    --primarycolour: #7C4EE4;
-    --secondarycolour: #333333;
-    --whitecolour:#FFFFFF;
+    --color1:  #FFFFFF;
+    --color-2: #7C4EE4;
+    --color-3: #333333;
+    --color-4: #999999;
+    --color-5: #666666;
+    --color-6: #150E06;
+
 }
-.primary{
-    color: var(--primarycolour ) 
+@font-face {
+    font-family: "rewelye";
+    src: url(./fonts/rewelye);
 }
-.black{
-color: var(--secondarycolour) !important
+.color-6-t{
+    color: var(--color-6) !important;
 }
-.text-color{
-    color: var(--secondarycolour) !important
-    
+.color-4-t{
+    color: var(--color-4);
+
 }
-.text-color :hover{
-    background-color: var(--whitecolour) !important
+.color-5-t{
+color: var(--color-5);
 }
-.purple{
-    background:var(--whitecolour) !important
+
+.font{
+    font-family: rewelye;
 }
-.purple{
-    color: var(--secondarycolour) !important
+.lh150{
+    line-height: 150%;
 }
-.btn-size {
-    width: 8%;
+.color-1-B{
+    background-color: var(--color1);
 }
-.last{
-    color: var(--primarycolour) !important
+.color-2-B{
+    background-color: var(--color-2);
+}
+.color-2-t{
+    color: var(--color-2) !important;
+}
+.color-3-t{
+    color: var(--color-3) !important;
+}
+.button123{
+    background-color: transparent;
+    border: none;
+    background-color: var(--color-2);
+    border: 1px solid #7C4EE4;
+    padding: 10px 20px;
+    color: white;
+    font-size: small;
+}
+
+.button-2{
+    background-color: transparent;
+    border: none;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: black;
+    font-size: small;
+}
+.button-3{
+    background-color: transparent;
+    border: none;
+    background-color: white;
+    border: 1px solid var(--color-2);
+    padding: 10px 20px;
+    color: var(--color-2);
+    font-size: small;
+}
+.fs-16{
+    font-size: 12px !important;
 }
